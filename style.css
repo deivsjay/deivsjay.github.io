@@ -1,0 +1,354 @@
+/*------ GLOBAL ---------*/
+
+body {
+/*
+    background: url('pexels-pink.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+*/
+/*    background-color: #EBCED0;*/
+    font-family: serif;
+    color: white;
+    font-family: 'Karma', serif;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+/*    padding: 0%;*/
+}
+
+/*--------- NAVIGATION --------*/
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 500;
+}
+
+ul li {
+    float: left;
+    width: 12.5%;
+    height: 6vw;
+    background-color: #AEB9B1;
+    text-align: center;
+    font-size: 1.7vw;
+    padding: 0;
+    margin: 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+ul li a:hover {
+    color: black;
+}
+
+.nav-name {
+    font-family: 'Parisienne', cursive;
+    font-size: 3.5vw;
+    padding-top: 0.7vw;
+    padding-bottom: 0.7vw;
+}
+
+.nav-not-name {
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+
+/*------- HEADER ---------*/
+
+.header-container {
+    position: relative;
+    text-align: left;
+    color: white;
+    font-size: 3.5vw;
+}
+
+.header-content {
+    position: absolute;
+    margin-top: 5%;
+    left: 10%;
+    margin-top: -60vw;
+}
+
+.description {
+    font-size: 2vw;
+}
+
+.name {
+    font-family: 'Parisienne', cursive;
+    font-size: 6vw;
+    letter-spacing: 3px;
+    margin-bottom: -0.1%
+}
+
+.pexels-pink {
+    width: 100vw;
+}
+
+/*-------- BACKGROUND ---------*/
+
+
+.background {
+    color: black;
+    margin-bottom: 5vw;
+    margin-top: 5vw;
+    
+}
+
+.background-header {
+    color: #E8CACC;
+    margin-left: 10vw;
+    font-size: 2.5vw;
+    margin-bottom: 3vw;
+}
+
+.background p {
+    margin-left: 20vw;
+    font-size: 1.6vw;
+    line-height: 2.3vw;
+    margin-right: 20vw;
+}
+
+.background a {
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+}
+
+.opps {
+    margin-top: 5vw;
+    
+}
+
+.em-pushpin {
+    margin-right: 15px;
+}
+
+.background i {
+    padding-right: 3px;
+}
+
+
+/*------- SKILLS --------*/
+
+.skills {
+    margin-top: 5vw;
+    color: white;
+    background-color: #E8CACC;
+    padding-bottom: 5vw;
+}
+
+.skills-header {
+    padding-top: 5vw;
+    margin-left: 10vw;
+    font-size: 2.5vw;
+/*    padding-bottom: 5vw;*/
+    margin-bottom: 3vw;
+}
+
+.skills table {
+    margin-left: 20vw;
+    margin-right: 20vw;
+/*    width: 20vw;*/
+    table-layout: fixed;
+    font-size: 1.6vw;
+    line-height: 2.3vw;
+    width: 55vw;
+    text-align: left;
+    
+}
+
+th {
+    font-weight: 700;
+/*    color: black;*/
+    color: #888888;
+    padding-bottom: 1vw;
+    
+}
+
+/*-------- PROJECTS ---------*/
+
+.projects {
+/*    background-color: #E8CACC;*/
+    background-color: white;
+    padding-top: 5vw;
+/*    padding-bottom: 5vw;*/
+    color: #888888;
+    margin-right: 20vw;
+    font-size: 1.6vw;
+    font-weight: 100;
+}
+
+.projects h2 {
+    color: #E8CACC;
+}
+
+.projects img {
+    width: 35vw;
+    margin-right: 3vw;
+}
+.projects table td {
+    vertical-align: top;
+/*    border: 1px solid black;*/
+    padding-bottom: 5vw;
+}
+
+.projects table td p{
+    margin: 0;
+}
+
+.projects table {
+    border-collapse: collapse;
+    margin-left: 20vw;
+    font-size: 1.4vw;
+}
+
+.project-header {
+    font-weight: 700;
+/*    margin-bottom: 1vw;*/
+/*    color: #888888;*/
+    font-size: 1.6vw;
+    color: black;
+}
+
+.project-description {
+    padding-top: 1vw;
+}
+
+.table-number {
+    border-radius: 10%;
+}
+
+/*
+.maze {
+    border-radius: 10%;
+}
+*/
+
+/*-------- EXPERIENCE --------*/
+
+.experience-header {
+    color: white;
+    margin-left: 10vw;
+    font-size: 2.5vw;
+    padding-bottom: 2vw;
+}
+
+.experience {
+    background-color: #E8CACC;
+    padding-top: 5vw;
+    
+}
+
+.experience table {
+    width: 60vw;
+    margin-left: 20vw;
+    font-size: 1.6vw;
+    border-collapse: collapse;
+    margin-bottom: 2.5vw;
+    margin-top: 0;
+    padding-top: 0;
+    color: #888888;
+}
+
+.date {
+    text-align: right;
+    font-family: "Courier New", monospace;
+    font-size: 1.3vw;
+    letter-spacing: -0.1vw;
+}
+
+.company {
+    color: white;
+    font-weight: 700;
+}
+
+.experience a:hover {
+    text-decoration: none;
+    color: #888888;
+}
+
+.experience a {
+    text-decoration: none;
+    color: white;
+}
+
+.position {
+    font-size: 1.4vw;
+}
+
+.experience h3 {
+    margin-top: 7vw;
+/*    margin-left: 20vw;*/
+    font-size: 2vw;
+    display: inline;
+}
+
+.resume-arrow {
+    padding-left: 0.5vw;
+}
+
+.resume {
+    margin-left: 20vw;
+}
+
+.view-resume-wrapper {
+    margin-top: 7vw;
+    padding-bottom: 5vw;
+}
+
+.view-resume-wrapper a {
+    color: black;
+}
+
+.view-resume-wrapper a:hover {
+    color: black;
+}
+
+/*-------- CONTACT ---------*/
+
+.contact {
+    background-color: white;
+/*    margin-top: 5vw;*/
+/*    margin-bottom: 4vw;*/
+    text-align: center;
+    display: inline;
+    margin: 0;
+}
+
+.facebook-wrapper .hvr-icon-grow:before {
+    content: "\f082";
+}
+
+.instagram-wrapper .hvr-icon-grow:before {
+    content: "\f16d";
+}
+
+.email-wrapper .hvr-icon-grow:before {
+    content: "\f0e0";
+}
+
+.linkedin-wrapper .hvr-icon-grow:before {
+    content: "\f0e1";
+}
+
+.github-wrapper .hvr-icon-grow:before {
+    content: "\f09b";
+}
+
+.contact table {
+    padding-top: 1vw;
+    padding-bottom: 4vw;
+}
+
+.contact table td {
+    width: 7vw;
+}
