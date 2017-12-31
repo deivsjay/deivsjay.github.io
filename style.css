@@ -99,7 +99,7 @@ ul li a:hover {
 .background {
     color: black;
     margin-bottom: 5vw;
-    margin-top: 5vw;
+    padding-top: 5vw;
     
 }
 
@@ -140,14 +140,14 @@ ul li a:hover {
 /*------- SKILLS --------*/
 
 .skills {
-    margin-top: 5vw;
+    padding-top: 5vw;
     color: white;
     background-color: #E8CACC;
     padding-bottom: 5vw;
 }
 
 .skills-header {
-    padding-top: 5vw;
+/*    padding-top: 0vw;*/
     margin-left: 10vw;
     font-size: 2.5vw;
 /*    padding-bottom: 5vw;*/
@@ -234,7 +234,7 @@ th {
 */
 
 .google-earth {
-    border-radius: 10%; 
+    border-radius: 50%; 
 }
 
 /*-------- EXPERIENCE --------*/
