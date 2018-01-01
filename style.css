@@ -253,6 +253,10 @@ th {
     color: black;
 }
 
+.mobile-projects .project-header {
+    font-weight: 400;
+}
+
 .mobile-projects a {
     text-decoration: none;
 }
@@ -348,6 +352,7 @@ th {
 
 .mobile-experience h3 {
     font-size: 1.5vw;
+    font-weight: 400;
 }
 
 .resume-arrow {
