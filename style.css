@@ -1,12 +1,21 @@
+/*------- DEVICE ----------*/
+
+/*desktop*/
+
+.mobile-device-415px {
+    display: none;
+}
+
+/*mobile device max width 480px*/
+
+@media only screen and (max-device-width: 415px) {
+    .mobile-device-415px{display: block;}
+    .desktop {display: none;}
+}
+
 /*------ GLOBAL ---------*/
 
 body {
-/*
-    background: url('pexels-pink.jpeg');
-    background-size: cover;
-    background-repeat: no-repeat;
-*/
-/*    background-color: #EBCED0;*/
     font-family: serif;
     color: white;
     font-family: 'Karma', serif;
@@ -15,7 +24,6 @@ body {
     max-width: 100%;
     overflow-x: hidden;
     margin: 0;
-/*    padding: 0%;*/
 }
 
 /*--------- NAVIGATION --------*/
@@ -117,10 +125,20 @@ ul li a:hover {
     margin-right: 20vw;
 }
 
+.mobile-background p {
+    font-size: 1.2vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
 .background a {
     text-decoration: none;
     font-weight: 700;
     color: black;
+}
+
+.mobile-background a {
+    color: #888888;
 }
 
 .opps {
@@ -157,13 +175,18 @@ ul li a:hover {
 .skills table {
     margin-left: 20vw;
     margin-right: 20vw;
-/*    width: 20vw;*/
     table-layout: fixed;
     font-size: 1.6vw;
     line-height: 2.3vw;
     width: 55vw;
     text-align: left;
-    
+}
+
+.mobile-skills table {
+    margin-left: 15vw;
+    margin-right: 15vw;
+    width: 70vw;
+    font-size: 2vw;
 }
 
 th {
@@ -177,14 +200,16 @@ th {
 /*-------- PROJECTS ---------*/
 
 .projects {
-/*    background-color: #E8CACC;*/
     background-color: white;
     padding-top: 5vw;
-/*    padding-bottom: 5vw;*/
     color: #888888;
     margin-right: 20vw;
     font-size: 1.6vw;
     font-weight: 100;
+}
+
+.mobile-projects {
+    margin-right: 15vw;
 }
 
 .projects h2 {
@@ -195,6 +220,13 @@ th {
     width: 35vw;
     margin-right: 3vw;
 }
+
+.mobile-projects img {
+    float: right;
+    padding-left: 2vw;
+    margin-bottom: 0.5vw;
+}
+
 .projects table td {
     vertical-align: top;
 /*    border: 1px solid black;*/
@@ -211,12 +243,22 @@ th {
     font-size: 1.4vw;
 }
 
+.mobile-projects table {
+    margin-left: 15vw;
+}
+
 .project-header {
     font-weight: 700;
-/*    margin-bottom: 1vw;*/
-/*    color: #888888;*/
     font-size: 1.6vw;
     color: black;
+}
+
+.mobile-projects a {
+    text-decoration: none;
+}
+
+.mobile-projects .project-header {
+    padding-bottom: 1vw;
 }
 
 .project-description {
@@ -226,12 +268,6 @@ th {
 .table-number {
     border-radius: 10%;
 }
-
-/*
-.maze {
-    border-radius: 10%;
-}
-*/
 
 .google-earth {
     border-radius: 50%; 
@@ -263,11 +299,21 @@ th {
     color: #888888;
 }
 
+.mobile-experience table {
+    margin-left: 15vw;
+    width: 70vw;
+    font-size: 2.5vw;
+}
+
 .date {
     text-align: right;
     font-family: "Courier New", monospace;
     font-size: 1.3vw;
     letter-spacing: -0.1vw;
+}
+
+.mobile-experience .date {
+    font-size: 1.7vw;
 }
 
 .company {
@@ -289,6 +335,10 @@ th {
     font-size: 1.4vw;
 }
 
+.mobile-experience .position {
+    font-size: 2vw;
+}
+
 .experience h3 {
     margin-top: 7vw;
 /*    margin-left: 20vw;*/
@@ -296,12 +346,24 @@ th {
     display: inline;
 }
 
+.mobile-experience h3 {
+    font-size: 1.5vw;
+}
+
 .resume-arrow {
     padding-left: 0.5vw;
 }
 
+.mobile-experience .resume-arrow {
+    margin-top: 2vw;
+}
+
 .resume {
     margin-left: 20vw;
+}
+
+.mobile-experience .resume {
+    margin-left: 15vw;
 }
 
 .view-resume-wrapper {
@@ -351,6 +413,10 @@ th {
 .contact table {
     padding-top: 1vw;
     padding-bottom: 4vw;
+}
+
+.mobile-contact table {
+    padding-bottom: 5vw;
 }
 
 .contact table td {
