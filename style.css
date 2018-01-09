@@ -403,6 +403,9 @@ th {
     text-align: center;
     display: inline;
     margin: 0;
+    color: black;
+    font-weight: 700;
+    font-size: 1.5vw;
 }
 
 .facebook-wrapper .hvr-icon-grow:before {
@@ -427,7 +430,7 @@ th {
 
 .contact table {
     padding-top: 1vw;
-    padding-bottom: 4vw;
+    padding-bottom: 2vw;
 }
 
 .mobile-contact table {
