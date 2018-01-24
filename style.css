@@ -101,6 +101,11 @@ ul li a:hover {
     width: 100vw;
 }
 
+header a {
+    text-decoration: none;
+    color: white;
+}
+
 /*-------- BACKGROUND ---------*/
 
 

@@ -1,0 +1,117 @@
+/*--------- BODY ------------*/
+html, body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: black;
+    opacity: 1;
+    transition: 1s opacity;
+}
+
+/*-------- FIXED IMAGES ---------*/
+
+.para-image {
+    height: 100%;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.content {
+    height: auto;
+    background-color: black;
+    color: white;
+}
+
+.image1 {
+    background-image: url("jones");
+    background-position: 0px 7vw; 
+    
+}
+
+.image2 {
+    background-image: url("hair%20copy.jpg");
+    background-position: 0vw -8vw;
+}
+
+/*--------- HEADER ------------*/
+
+.title {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 5px;
+    text-align: center;
+    font-size: 4vw;
+    margin: 0px;
+    padding: 1vw;
+    font-weight: 700;
+}
+
+/*------------ NAVIGATION ----------*/
+
+ul li {
+    display: inline;
+    text-align: center;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+ul {
+    text-align: center;
+    margin-top: 0vw;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.2vw;
+}
+
+ul li a:hover {
+    color: burlywood;
+}
+
+/*----------- MAIN ------------*/
+
+.design-space {
+/*    font-family: 'Roboto Slab', serif;*/
+/*    font-family: 'Cormorant Garamond', serif;*/
+/*    font-family: 'Arapey', serif;*/
+/*    font-family: 'Neuton', serif;*/
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    padding-left: 20vw;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    letter-spacing: 0.5px;
+    text-align: center;
+    font-size: 1.2vw;
+    line-height: 2vw;
+}
+
+.design-space p {
+    padding-left: 5vw;
+    padding-right: 25vw;
+    padding-bottom: 1.5vw;
+}
+
+.design-space h2 {
+    padding-left: 5vw;
+    padding-right: 25vw;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.5vw;
+    font-size: 3vw;
+    padding-bottom: 2vw;
+    color: burlywood;
+}
+
+.design-space p span {
+    color: lightpink;
+}
