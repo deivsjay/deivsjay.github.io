@@ -101,7 +101,7 @@ ul li a:hover {
     width: 100vw;
 }
 
-header a {
+.diamond {
     text-decoration: none;
     color: white;
 }
