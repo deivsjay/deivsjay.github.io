@@ -7,8 +7,6 @@ html, body {
 
 body {
     background: black;
-    opacity: 1;
-    transition: 1s opacity;
 }
 
 /*-------- FIXED IMAGES ---------*/
@@ -28,13 +26,14 @@ body {
 
 .image1 {
     background-image: url("jones");
-    background-position: 0px 7vw; 
-    
+    background-position: 0px 7vw;
+/*    opacity: 0.5;*/
 }
 
 .image2 {
-    background-image: url("hair%20copy.jpg");
-    background-position: 0vw -8vw;
+    background-image: url("DSC_0229%20copy.jpg");
+    background-position: 0vw 0vw;
+    opacity: 0.3;
 }
 
 /*--------- HEADER ------------*/
@@ -76,7 +75,7 @@ ul li a:hover {
     color: burlywood;
 }
 
-/*----------- MAIN ------------*/
+/*----------- DESIGN SPACE ------------*/
 
 .design-space {
 /*    font-family: 'Roboto Slab', serif;*/
@@ -114,4 +113,65 @@ ul li a:hover {
 
 .design-space p span {
     color: lightpink;
+}
+
+/*--------- UX CLASS --------*/
+
+.ux-class {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+/*    padding-left: 20vw;*/
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    letter-spacing: 0.5px;
+    text-align: center;
+    font-size: 1.2vw;
+    line-height: 2vw;
+}
+
+.ux-class h2 {
+/*    padding-left: 5vw;*/
+/*    padding-right: 25vw;*/
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.5vw;
+    font-size: 3vw;
+    padding-bottom: 2vw;
+    color: burlywood;
+}
+
+.teacher {
+/*    padding-left: 5vw;*/
+/*    padding-right: 25vw;*/
+    padding-bottom: 3vw;
+    padding-top: 0vw;
+    margin-top: -3.5vw;
+    color: lightpink;
+}
+
+.ux-class img {
+    width: 35vw;
+}
+
+.ux-class h3 {
+    font-weight: 200;
+    font-size: 1.2vw;
+    color: white;
+/*    font-family: 'Cormorant Garamond', serif;*/
+    text-align: right;
+}
+
+.week p {
+    font-size: 1.7vw;
+    width: 15vw;
+    text-align: right;
+    color: lightpink;
+    text-align: right;
+    letter-spacing: 0.5vw;
+    
+}
+
+.week {
+    padding-right: 2vw;
 }
